@@ -1,7 +1,7 @@
 {
-  "name": "camel2DashJs",
+  "name": "camel-to-dash",
   "version": "1.0.0",
-  "description": "<p align=\"center\" style=\"text-align:center\">     <img src=\"https://www.flaticon.com/svg/vstatic/svg/80/80874.svg?token=exp=1620746915~hmac=7afdbd38bd36bc465bc2a9a4836cacf9\" alt=\"drawing\" width=\"100\"/> </p>",
+  "description": "convert function camel to dash",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
