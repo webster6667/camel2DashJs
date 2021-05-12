@@ -18,3 +18,7 @@ import {camelToDash} from 'camel-to-dash'
 
 const dash = camelToDash('camelCase') //return camel-case
 ```
+
+## Author
+
+webster6667

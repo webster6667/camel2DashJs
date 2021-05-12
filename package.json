@@ -1,6 +1,6 @@
 {
   "name": "camel-to-dash",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "convert function camel to dash",
   "main": "index.js",
   "scripts": {
