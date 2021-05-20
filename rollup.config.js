@@ -8,9 +8,10 @@ import { terser } from 'rollup-plugin-terser'
 const moduleFormat = process.env.NODE_ENV,
       shouldSqueeze = ['cjs'].includes(moduleFormat)
 
-const inputFile = 'src/index.ts'
-const outputFile = 'dist/index'
-const extensions = ['.js', '.ts']
+const inputFile = 'src/index.ts',
+      outputFile = 'dist/index',
+      prefix = shouldSqueeze ? '.min.js' : '.js',
+      extensions = ['.js', '.ts']
 
 const plugins = [
     resolve({
@@ -49,7 +50,7 @@ export default [
         input: inputFile,
         output: [
             {
-                file: `${outputFile}.${moduleFormat}.js`,
+                file: `${outputFile}.${moduleFormat}${prefix}`,
                 format: moduleFormat,
             }
         ],

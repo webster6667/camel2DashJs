@@ -1,8 +1,8 @@
 {
   "name": "camel-to-dash",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "convert function camel to dash",
-  "main": "dist/index.cjs.js",
+  "main": "dist/index.cjs.min.js",
   "types": "dist/index.d.ts",
   "module": "dist/index.esm.js",
   "scripts": {
