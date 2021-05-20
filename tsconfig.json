@@ -1,16 +1,32 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "CommonJS",
-    "lib": ["ESNext", "dom"],
+    "baseUrl": "./",
+    "outDir": "./dist",
+
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+
     "declaration": true,
-    "outDir": "dist",
-    "strict": true,
-    "esModuleInterop": true
+    "emitDeclarationOnly": true,
+
+    "sourceMap": true,
+
+    "jsx": "react",
+    "allowJs": true, //Проходится по js файлам
+
+    "strict": true, //Строгий режим
+    "module": "esnext",
+    "moduleResolution": "node"
   },
+  "include": ["src/**/*"],
   "exclude": [
-    "node_modules",
-    "dist",
-    "test"
+    "node_modules/",
+    "lib",
+    "es",
+    "**/*.test.*"
   ]
 }
