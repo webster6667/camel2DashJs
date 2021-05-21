@@ -7,7 +7,6 @@
 > function convert camel-case to dash-delimiter
 
 [![npm version](https://badge.fury.io/js/camel-to-dash.svg)](https://www.npmjs.com/package/camel-to-dash)
-[![](https://data.jsdelivr.com/v1/package/npm/camel-to-dash/badge)](https://www.jsdelivr.com/package/npm/camel-to-dash)
 
 ## Install
 

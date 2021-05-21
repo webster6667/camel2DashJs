@@ -10,7 +10,7 @@ const moduleFormat = process.env.NODE_ENV,
 
 const inputFile = 'src/index.ts',
       outputFile = 'dist/index',
-      prefix = shouldSqueeze ? '.min.js' : '.js',
+      prefix = '.js',
       extensions = ['.js', '.ts']
 
 const plugins = [
